@@ -7,7 +7,7 @@ USE_SHARED ?= 1
 USE_ALTIVEC ?= 0
 
 # define to 1 to use SSE2 instructions
-USE_SSE ?= 0
+USE_SSE ?= 1
 
 # default flags
 CXXFLAGS ?= -O2 -Wall
